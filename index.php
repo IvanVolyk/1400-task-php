@@ -103,6 +103,17 @@
 			<p><?php echo $converted; ?></p>
 		</div>
 
+		<div class="block">
+			<h3>1.8. Составить программу вывода на экран числа, вводимого с клавиатуры. Выводимому числу должно предшествовать сообщение «Вы ввели число».</h3>
+
+			<form action="welcome.php" method="get">
+				<input type="text" name="Введите число">
+				<input type="submit">
+			</form>
+
+			
+		</div>
+
 	</div>
 
 	
