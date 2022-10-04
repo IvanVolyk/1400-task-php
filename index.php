@@ -114,6 +114,17 @@
 			
 		</div>
 
+		<div class="block">
+			<h3>1.9. Составить программу вывода на экран числа, вводимого с клавиатуры. После выводимого числа должно следовать сообщение «– вот какое число Вы ввели».</h3>
+
+			<form action="welcome1.php" method="get">
+				<input class="var1" type="text" name="Введите ваше число">
+				<input type="submit">
+			</form>
+
+			
+		</div>
+
 	</div>
 
 	
