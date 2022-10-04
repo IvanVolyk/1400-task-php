@@ -110,19 +110,24 @@
 				<input type="text" name="Введите число">
 				<input type="submit">
 			</form>
-
-			
 		</div>
 
 		<div class="block">
 			<h3>1.9. Составить программу вывода на экран числа, вводимого с клавиатуры. После выводимого числа должно следовать сообщение «– вот какое число Вы ввели».</h3>
 
 			<form action="welcome1.php" method="get">
-				<input class="var1" type="text" name="Введите ваше число">
+				<input type="text" name="Введите ваше число">
 				<input type="submit">
-			</form>
+			</form>		
+		</div>
 
-			
+		<div class="block">
+			<h3>1.10. Составить программу, которая запрашивает имя человека и повторяет его на экране.</h3>
+
+			<form action="welcome2.php" method="get">
+				<input type="text" name="Введите ваше число" placeholder="Введите ваше имя">
+				<input type="submit">
+			</form>		
 		</div>
 
 	</div>
