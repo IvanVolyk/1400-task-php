@@ -125,7 +125,16 @@
 			<h3>1.10. Составить программу, которая запрашивает имя человека и повторяет его на экране.</h3>
 
 			<form action="welcome2.php" method="get">
-				<input type="text" name="Введите ваше число" placeholder="Введите ваше имя">
+				<input type="text" name="Введите ваше имя" placeholder="Введите ваше имя">
+				<input type="submit">
+			</form>		
+		</div>
+
+		<div class="block">
+			<h3>1.11. Составить программу, которая запрашивает название футбольной команды и  повторяет его на экране со словами «– это чемпион!».</h3>
+
+			<form action="welcome3.php" method="get">
+				<input type="text" name="Название футбольной команды" placeholder="Введите название футбольной команды" size="35">
 				<input type="submit">
 			</form>		
 		</div>
