@@ -1,7 +1,12 @@
 <?php 
 
 $var = implode('', $_GET);
+$var_name = implode('', $_POST);
 
-echo $var . '&nbsp;– это чемпион!';
+if ( $var == true ) {
+	echo $var . '&nbsp;– это чемпион!';
+} else {
+	echo 'Привет,&nbsp;' . $var_name . '!';
+}
 
 ?> 
