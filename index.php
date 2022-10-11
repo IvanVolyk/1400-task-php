@@ -157,6 +157,17 @@
 			</form>		
 		</div>
 
+		<div class="block">
+			<h3>1.14. Составить программу вывода на экран в одну строку трех любых чисел, вводимых с клавиатуры, с двумя пробелами между ними.</h3>
+
+			<form action="welcome4.php" method="post">
+				<input type="text" name="Первое Число" placeholder="Введите Первое Число!">
+				<input type="text" name="Второе Число" placeholder="Введите Второе Число!">
+				<input type="text" name="Третье Число" placeholder="Введите Третье Число!">
+				<input type="submit">
+			</form>		
+		</div>
+
 	</div>
 
 	
