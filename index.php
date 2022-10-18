@@ -168,13 +168,19 @@
 			</form>		
 		</div>
 
+		<div class="block">
+			<h3>1.15. Составить программу вывода на экран в одну строку четырех любых чисел, вводимых с  клавиатуры, с  одним пробелом между ними.</h3>
+
+			<form action="welcome4.php" method="get">
+				<input type="text" name="Ваше Первое Число" placeholder="Введите Первое Число!">
+				<input type="text" name="Ваше Второе Число" placeholder="Введите Второе Число!">
+				<input type="text" name="Ваше Третье Число" placeholder="Введите Третье Число!">
+				<input type="text" name="Ваше Четвертое Число" placeholder="Введите Четвертое Число!">
+				<input type="submit">
+			</form>		
+		</div>
+
 	</div>
-
-	
-
-
-
-
 </body>
 </html>
 
