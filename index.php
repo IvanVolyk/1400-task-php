@@ -180,6 +180,32 @@
 			</form>		
 		</div>
 
+		<div class="block">
+			<h3>1.16. Составить программу вывода на экран следующей таблицы с информацией:
+
+12 8 a
+b   1 c
+
+Примечание
+a, b, c  – переменные величины целого типа, значения которых вводятся с  клавиатуры и  должны быть выведены вместо имен величин.</h3>
+
+<form action="welcome5.php" method="post">
+	<table border="1" width="100%" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>12</td>
+			<td>8</td>
+			<td><input type="text" name="Значение a" placeholder="a"></td>
+		</tr>
+		<tr>
+			<td><input type="text" name="Значение b" placeholder="b"></td>
+			<td>1</td>
+			<td><input type="text" name="Значение c" placeholder="c"></td>
+		</tr>
+	</table>
+	<input type="submit" value="Обновить таблицу">
+</form>		
+</div>
+
 	</div>
 </body>
 </html>
