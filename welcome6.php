@@ -1,4 +1,4 @@
-<form action="welcome5.php" method="post">
+<form action="welcome6.php" method="post">
 	<table border="1" width="100%" cellpadding="0" cellspacing="0">
 		<tr>
 			<td>20 кг</td>
