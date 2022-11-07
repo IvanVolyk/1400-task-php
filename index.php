@@ -194,12 +194,12 @@ a, b, c  – переменные величины целого типа, зна
 		<tr>
 			<td>12</td>
 			<td>8</td>
-			<td><input type="text" name="Значение a" placeholder="a"></td>
+			<td><input type="text" name="NameA" placeholder="a"></td>
 		</tr>
 		<tr>
-			<td><input type="text" name="Значение b" placeholder="b"></td>
+			<td><input type="text" name="NameB" placeholder="b"></td>
 			<td>1</td>
-			<td><input type="text" name="Значение c" placeholder="c"></td>
+			<td><input type="text" name="NameC" placeholder="c"></td>
 		</tr>
 	</table>
 	<input type="submit" value="Обновить таблицу">
