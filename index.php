@@ -206,6 +206,32 @@ a, b, c  – переменные величины целого типа, зна
 </form>		
 </div>
 
+<div class="block">
+			<h3>1.17. Составить программу вывода на экран следующей таблицы с информацией:
+
+20 кг 18 кг Ваше значение в кг
+Ваше значение в кг 11 кг Ваше значение в кг
+
+Примечание
+a, b, c  – переменные величины целого типа, значения которых вводятся с  клавиатуры и  должны быть выведены вместо имен величин.</h3>
+
+<form action="welcome6.php" method="post">
+	<table border="1" width="100%" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>20 кг</td>
+			<td>18 кг</td>
+			<td><input type="text" name="kilograms1" placeholder="Ваше значение в кг"></td>
+		</tr>
+		<tr>
+			<td><input type="text" name="kilograms2" placeholder="Ваше значение в кг"></td>
+			<td>11 кг</td>
+			<td><input type="text" name="kilograms3" placeholder="Ваше значение в кг"></td>
+		</tr>
+	</table>
+	<input type="submit" value="Обновить таблицу">
+</form>		
+</div>
+
 	</div>
 </body>
 </html>
