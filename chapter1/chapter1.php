@@ -105,7 +105,7 @@
 		<div class="block">
 			<h3>1.8. Составить программу вывода на экран числа, вводимого с клавиатуры. Выводимому числу должно предшествовать сообщение «Вы ввели число».</h3>
 
-			<form action="welcome.php" method="get">
+			<form action="cha1-welcome.php" method="get">
 				<input type="text" name="Введите число">
 				<input type="submit">
 			</form>
@@ -114,7 +114,7 @@
 		<div class="block">
 			<h3>1.9. Составить программу вывода на экран числа, вводимого с клавиатуры. После выводимого числа должно следовать сообщение «– вот какое число Вы ввели».</h3>
 
-			<form action="welcome1.php" method="get">
+			<form action="cha1-welcome1.php" method="get">
 				<input type="text" name="Введите ваше число">
 				<input type="submit">
 			</form>		
@@ -123,7 +123,7 @@
 		<div class="block">
 			<h3>1.10. Составить программу, которая запрашивает имя человека и повторяет его на экране.</h3>
 
-			<form action="welcome2.php" method="get">
+			<form action="cha1-welcome2.php" method="get">
 				<input type="text" name="Введите ваше имя" placeholder="Введите ваше имя">
 				<input type="submit">
 			</form>		
